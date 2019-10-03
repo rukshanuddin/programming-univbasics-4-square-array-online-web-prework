@@ -4,5 +4,7 @@ def square_array(array)
     array[counter] = array[counter] ** 2
     counter += 1
   end
-  p array
+  return array
 end
+
+p square_array(5, 4, 3)
